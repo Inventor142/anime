@@ -467,9 +467,15 @@ h3{
     margin: 50px;
     background-color: rgb(214, 214, 214);
     font-size: 50px;
+    @media (max-width: 1311px) {
+        font-size: 30px;
+    } 
 }
 .opis{
     font-size: 33px;
+    @media (max-width: 1311px) {
+        font-size: 20px;
+}
 }
 
 .rodi{  
